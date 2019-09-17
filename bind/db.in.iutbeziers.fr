@@ -1,0 +1,13 @@
+;------------ in.iutbeziers.master -------------
+$TTL 1h;
+@ IN SOA nathan.in.iutbeziers.fr. colantonio.iutbeziers.fr. (
+	2019091705 ; Serial
+	3600 ; Refresh(1h)
+	3600 ; Retry(1h)
+	3600000 ; Expire(41j)
+	86400 ) ; Minimum(24h)
+$ORIGIN in.iutbeziers.fr.
+@       IN      NS nathan
+@	IN	NS enzo
+nathan IN A 10.203.11.174
+enzo   IN A 10.203.0.188

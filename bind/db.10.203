@@ -1,0 +1,13 @@
+;------------db.10.203-------------
+$TTL 1h;
+@ IN SOA nathan.in.iutbeziers.fr. colantonio.iutbeziers.fr. (
+	2019091705 ; Serial
+	3600 ; Refresh(1h)
+	3600 ; Retry(1h)
+	3600000 ; Expire(41j)
+	86400 ) ; Minimum(24h)
+@       IN NS nathan.in.iutbeziers.fr.
+@	IN NS enzo.in.iutbeziers.fr.
+$ORIGIN 203.10.in-addr.arpa.
+174.11 IN PTR nathan.in.iutbeziers.fr.
+188.0 IN PTR enzo.in.iutbeziers.fr.
